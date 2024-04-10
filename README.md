@@ -72,6 +72,11 @@
 # abrir o projeto no terminal
 # instalar as dependencias com o comando
 npm install
+# criar o arquivo .env na raiz do projeto e colocar as sequintes informações (DB_USER, DB_PASSWORD e DB_HOST fica a critério)
+DB_NAME=toughts
+DB_USER=root
+DB_PASSWORD=root
+DB_HOST=localhost
 # criar o banco de dados com o comando
 npx sequelize-cli db:create
 # executar o projeto
