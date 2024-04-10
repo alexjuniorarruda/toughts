@@ -64,22 +64,37 @@
 - nodemon
 - sequelize-cli
 
-# Como executar o projeto
+## Dependências e Versões Necessárias
 - Pré-requisitos: Node.js e NPM
 
-```bash
-# fazer download do repositório
-# abrir o projeto no terminal
-# instalar as dependencias com o comando
+## Como rodar o projeto ✅
+
+- Fazer download do repositório
+- Abrir o projeto no terminal
+- Instalar as dependencias com o comando
+  
+```
 npm install
-# criar o arquivo .env na raiz do projeto e colocar as sequintes informações (DB_USER, DB_PASSWORD e DB_HOST fica a critério)
+```
+
+- criar o arquivo .env na raiz do projeto e colocar as sequintes informações (DB_USER, DB_PASSWORD e DB_HOST fica a critério)
+  
+```
 DB_NAME=toughts
 DB_USER=root
 DB_PASSWORD=root
 DB_HOST=localhost
-# criar o banco de dados com o comando
+```
+
+- Criar o banco de dados com o comando
+  
+```
 npx sequelize-cli db:create
-# executar o projeto
+```
+
+- Executar o projeto
+  
+```
 npm start
 ```
 
