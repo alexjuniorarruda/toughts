@@ -10,15 +10,23 @@
 ## Back-end
 - JavaScript
 - Node.js
-- Sequelize
-- Express
-- Bcrypt
-- DotEnv
-- Cokkie
-- Session
-- Nodemon
 
 ## Front-end
 - HTML
 - CSS
-- Express-Handlebars
+
+## Dependências
+- bcryptjs
+- connect-flash
+- cookie-parser 
+- cookie-session 
+- dotenv 
+- express 
+- express-flash 
+- express-handlebars 
+- express-session 
+- mysql 
+- sequelize 
+- session-file-store
+- nodemon
+- sequelize-cli
