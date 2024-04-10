@@ -30,3 +30,23 @@
 - session-file-store
 - nodemon
 - sequelize-cli
+
+# Como executar o projeto
+- Pré-requisitos: Node.js e NPM
+
+```bash
+# fazer download do repositório
+# abrir o projeto no terminal
+# instalar as dependencias com o comando
+npm install
+# criar o banco de dados com o comando
+npx sequelize-cli db:create
+# executar o projeto
+npm start
+```
+
+# Autor
+
+Alex Junior Arruda
+
+https://www.linkedin.com/in/alex-jr-arruda/
