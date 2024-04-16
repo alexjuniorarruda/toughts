@@ -48,24 +48,20 @@
 - HTML
 - CSS
 
-## Dependências
-- bcryptjs
-- connect-flash
-- cookie-parser 
-- cookie-session 
-- dotenv 
-- express 
-- express-flash 
-- express-handlebars 
-- express-session 
-- mysql 
-- sequelize 
-- session-file-store
-- nodemon
-- sequelize-cli
-
 ## Dependências e Versões Necessárias
-- Pré-requisitos: Node.js e NPM
+
+- bcryptjs: 2.4.3
+- connect-flash: 0.1.1
+- cookie-parser: 1.4.6
+- cookie-session: 2.0.0
+- dotenv: 16.4.5
+- express: 4.18.2
+- express-flash: 0.0.2
+- express-handlebars: 7.0.2
+- express-session: 1.17.3
+- mysql2: 3.2.0
+- sequelize: 6.29.3
+- session-file-store: 1.5.0
 
 ## Como rodar o projeto ✅
 
