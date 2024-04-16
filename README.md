@@ -77,7 +77,7 @@
 npm install
 ```
 
-- criar o arquivo .env na raiz do projeto e colocar as sequintes informações (DB_USER, DB_PASSWORD e DB_HOST fica a critério)
+- renomear o arquivo .env.example para .env e colocar as sequintes informações (DB_USER, DB_PASSWORD e DB_HOST fica a critério)
   
 ```
 DB_NAME=toughts
